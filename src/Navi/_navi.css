@@ -1,0 +1,7 @@
+.sideOpacity {
+    position: fixed;
+    inset: 0px;
+    background-color: rgb(92, 101, 112);
+    z-index: 0;
+    opacity: 0.8;
+  }
