@@ -9,7 +9,7 @@ function InForm() {
       <div className="sideOpacity"></div>
       <div
         className="container z-1 d-flex justify-content-center align-items-center"
-        style={{ height: "100vh" }}
+        style={{ height: "75vh" }}
       >
         <div className="row">
           <div className="card col-md-6 offset-md-3">

@@ -17,13 +17,13 @@ export default function DayOperative() {
         </h2>
 
         <div className="card w-100 mt-5">
-          <div className="card-body">
-            <p className="lead">
+          <div className="card-body lead">
+            <p>
               Genel anestezi çok yaygın kullanılan bir yöntemdir. Anestezistler
               bu işlem için uzun yıllar eğitim almış kişilerdir.
             </p>
 
-            <p className="lead">
+            <p>
               Ameliyat günü servis odanızda ameliyat için hemşireniz tarafından
               ameliyat önlüğü ve bone verilecektir. Hazır olduğunuzda
               ameliyathaneye götürülmek üzere personel tarafından sedye ile
@@ -33,14 +33,15 @@ export default function DayOperative() {
               <img
                 src={koridor}
                 alt=""
-                style={{ maxWidth: "50%", height: "500px", objectFit: "cover" }}
+                style={{ maxWidth: "100%", height: "500px" , borderRadius: "5px"}}
+                
               />
             </div>
-            <p className="lead">
+            <p>
               Ameliyathane odasının önünde bir süre bekletilmeniz gerekebilir.
               Ameliyathane odası sizin için hazır olduğunda içeri alınacaksınız.
             </p>
-            <p className="lead">
+            <p>
               Burada doktorunuz ve hemşireniz ile güvenlik prosedürlerini içeren
               bir görüşme daha yapacaksınız.
             </p>
@@ -48,11 +49,11 @@ export default function DayOperative() {
               <img
                 src={tufi}
                 alt=""
-                style={{ maxWidth: "50%", height: "500px", objectFit: "cover" }}
+                style={{ maxWidth: "100%", height: "500px" , borderRadius: "5px"}}
               />
             </div>
 
-            <p className="lead">
+            <p>
               Uyutulmadan önce, kalp hızınızı, oksijen değerlerinizi ve
               tansiyonunuzu görmek için çeşitli kablolar yerleştirilecektir.
             </p>
@@ -60,10 +61,10 @@ export default function DayOperative() {
               <img
                 src={hasta2}
                 alt=""
-                style={{ maxWidth: "50%", height: "500px", objectFit: "cover" }}
+                style={{ maxWidth: "100%", height: "500px" , borderRadius: "5px"}}
               />
             </div>
-            <p className="lead">
+            <p>
               Ardından oksijen maskesiyle nefes almanız istenecektir. Anestezi
               genellikle damar yolu da denilen intravenöz hattınızdan uygulanan
               ilaçlar ile verilir. Eğer damar yolunuz yok ise damar yolu
@@ -73,29 +74,29 @@ export default function DayOperative() {
               <img
                 src={hasta3}
                 alt=""
-                style={{ maxWidth: "50%", height: "500px", objectFit: "cover" }}
+                style={{ maxWidth: "100%", height: "300px" , borderRadius: "5px"}}
               />
             </div>
             <div className="text-center mt-3">
               <img
                 src={dmryl1}
                 alt=""
-                style={{ maxWidth: "50%", height: "500px", objectFit: "cover" }}
+                style={{ maxWidth: "50%", height: "500px"}}
               />
               <img
                 src={dmryl2}
                 alt=""
-                style={{ maxWidth: "50%", height: "500px", objectFit: "cover" }}
+                style={{ maxWidth: "50%", height: "500px"}}
               />
             </div>
-            <p className="lead">
+            <p>
               Bu aşamada tekrardan doktorunuz tarafından bilgilendirileceksiniz.
               Sizin uyuduğunuza emin olduktan sonra sonra solunum tüpü soluk
               borunuza yerleştirilecektir. Ardından ameliyatınızın büyüklüğü ve
               uzunluğuna bağlı olarak gerekli damar yolları veya diğer
               girişimler yapılabilir.
             </p>
-            <p className="lead">
+            <p>
               Ameliyatınız boyunca anestezistiniz tarafından bütün yaşamsal
               değerleriniz yakından izlenecek ve gerekli müdahaleler
               yapılacaktır
@@ -104,10 +105,10 @@ export default function DayOperative() {
               <img
                 src={izle}
                 alt=""
-                style={{ maxWidth: "50%", height: "500px", objectFit: "cover" }}
+                style={{ maxWidth: "100%", height: "500px" , borderRadius: "5px"}}
               />
             </div>
-            <p className="lead">
+            <p>
               Ameliyatınız bittiğinde yine aynı ekip tarafından uyandırılacak ve
               ayılma ünitesi adı verilen odaya götürüleceksiniz. Burada bir süre
               gözlem altında tutulacak ve kendinize gelmeniz beklenecek ve
@@ -118,7 +119,7 @@ export default function DayOperative() {
               <img
                 src={uyandırma}
                 alt=""
-                style={{ maxWidth: "50%", height: "500px", objectFit: "cover" }}
+                style={{ maxWidth: "100%", height: "500px" , borderRadius: "5px"}}
               />
             </div>
           </div>
